@@ -1,0 +1,18 @@
+:root {
+    --bg: #0b0f19; 
+    --panel: #12182a; 
+    --panel-2: #1a2140;
+    --text: #e9ecf1; 
+    --muted: #9aa4b2; 
+    --primary: #6aa7ff; 
+    --primary-600: #4d8ef0; 
+    --accent: #6ee7b7; 
+    --danger: #ff6b6b; 
+    --warning: #fbbf24; 
+    --success: #22c55e;
+    --ring: rgba(106,167,255,.35); 
+    --card: #111827; 
+    --border: #263045;
+    --radius: 14px; 
+    --shadow: 0 10px 30px rgba(0,0,0,.35);
+}

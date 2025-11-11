@@ -1,0 +1,48 @@
+@import './tokens.css';
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.card {
+    background-color: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.btn {
+    background-color: var(--primary);
+    color: var(--text);
+    border: none;
+    border-radius: var(--radius);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--primary-600);
+}
+
+.tag {
+    background-color: var(--accent);
+    border-radius: var(--radius);
+    padding: 5px;
+}
+
+.progress {
+    background-color: var(--muted);
+    border-radius: var(--radius);
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+.muted {
+    color: var(--muted);
+}
